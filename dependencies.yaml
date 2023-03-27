@@ -160,6 +160,7 @@ worker_requires:
   optipng:
   sqlite3: '>= 3.24.0'   # for INSERT INTO … ON CONFLICT … DO UPDATE SET … required by cache service
   bsdtar:  # for extraction feature of OpenQA::Downloader
+  ntp-daemon:
   perl(Capture::Tiny):
   perl(Mojo::IOLoop::ReadWriteProcess): '>= 0.26'
   perl(Minion::Backend::SQLite): '>= 5.0.7'
